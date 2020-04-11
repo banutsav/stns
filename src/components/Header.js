@@ -4,7 +4,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-code"></span>
+      <span className="icon icon-starlite-group"></span>
     </div>
     <div className="content">
       <div className="inner">
@@ -19,10 +19,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('about')
             }}
           >
-            Intro
+            About
           </button>
         </li>
         <li>
